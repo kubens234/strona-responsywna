@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="rwd, media queries, html, css, front-end developer">
+		<meta name="description" content="Przystosowanie istniejącej strony do konwencji RWD z HTML5 i stylami CSS3 oraz SASS">
+		<meta name="author" content="Jakub Mroczkowski">
+		<meta name="robots" content="index, follow">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+    	<title>Przystosowanie istniejącej strony do konwencji RWD z użyciem SASS</title>
+	</head>
+	
+	<body>
+		<header>
+			<nav class="container">
+				<div class="row">
+					<img src="http://placehold.it/150x30" alt="" title="">
+					<ul>
+						<li><a href="#">Link</a></li>
+						<li><a href="#gallery">Galeria</a></li>
+						<li><a href="#footer">kontakt</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section class="hero">
+				<div class="slogan">
+					<h1>Witam na mojej wizytówce </h1>
+				</div>
+			
+			</section>
+			<section class="container panel">
+					<div class="row">
+					<div class="col-m-4 col-s-12"><i class="fa fa-camera-retro fa-5x"></i>
+					<h2>Camera</h2>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+					<div class="col-m-4 col-s-12"><i class="fa fa-html5 fa-5x" aria-hidden="true"></i>
+					<h2>HTML5</h2>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+					<div class="col-m-4 col-s-12"><i class="fa fa-odnoklassniki-square fa-5x" aria-hidden="true"></i>
+					<h2>Ludek</h2>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-m-12 col-s-12">
+						<h1>FEATURED WORKS</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+				</div>
+			</section>
+			<section id="gallery" class="gallery">
+				<h2>Gallery</h2>
+				<div class="row">
+    				<div class="col-20 col-m-6 col-s-12"><img src="https://static.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg" 
+    				alt=""  title="" class="image"></div>
+        			<div class="col-20 col-m-6 col-s-12"><img src="https://static.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg"
+        			alt=""  title="" class="image"></div>
+        			<div class="col-20 col-m-6 col-s-12"><img src="https://static.pexels.com/photos/425/apple-iphone-desk-office.jpg"
+        			alt=""  title="" class="image"></div>
+        			<div class="col-20 col-m-6 col-s-12"><img src="https://static.pexels.com/photos/1712/sunglasses-apple-iphone-desk.jpg"
+        			alt=""  title="" class="image"></div>
+        			<div class="col-20 col-m-6 col-s-12"><img src="https://static.pexels.com/photos/425/apple-iphone-desk-office.jpg"
+        			alt=""  title="" class="image"></div>
+    				<div class="col-20 col-m-6 col-s-12"><img src="https://static.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg"
+    				alt=""  title="" class="image"></div>
+        			<div class="col-20 col-m-6 col-s-12"><img src="https://static.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg"
+        			alt=""  title="" class="image"></div>
+        			<div class="col-20 col-m-6 col-s-12"><img src="https://static.pexels.com/photos/425/apple-iphone-desk-office.jpg"
+        			alt=""  title="" class="image"></div>
+        			<div class="col-20 col-m-6 col-s-12"><img src="https://static.pexels.com/photos/1712/sunglasses-apple-iphone-desk.jpg"
+        			alt=""  title="" class="image"></div>
+        			<div class="col-20 col-m-6 col-s-12"><img src="https://static.pexels.com/photos/425/apple-iphone-desk-office.jpg"
+        			alt=""  title="" class="image"></div>
+				 </div>
+				 
+				
+			</section>
+			<section class="container team">
+				<div class="row">
+					<div class="col-m-3 col-s-6">
+						<div class="team-1"></div>
+						<h2>Prezes</h2>
+					</div>
+					<div class="col-m-3 col-s-6">
+						<div class="team-2"></div>
+						<h2>Prezes</h2>
+					</div>
+					<div class="col-m-3 col-s-6">
+						<div class="team-1"></div>
+						<h2>Prezes</h2>
+					</div>
+					<div class="col-m-3 col-s-6">
+						<div class="team-1"></div>
+						<h2>Prezes</h2>
+					</div>
+				</div>
+			</section>
+			<section class="panel2">
+				<div class="row container">
+					<div class="col-m-4 col-4"><img src="https://static.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg"
+					alt="" title="" class="image7"></div>
+					<div class="col-m-8 col-8">MY NEW TITLE</div>
+					<div class="col-m-6 col-6"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate ligula eget congue venenatis. Cras nec sem ligula. Nunc augue nisl, condimentum vel sollicitudin a, tristique id arcu</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate ligula eget congue venenatis. Cras nec sem ligula. Nunc augue nisl, condimentum vel sollicitudin a, tristique id arcu</p></div>
+					<div class="col-m-2 col-2">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+				</div>
+			</section>
+			<section class="numbers">
+				<div class="container row">
+    				<div class="col-m-3 col-s-6">
+    					<h3>455</h3>
+    					<p>followers</p>
+    				</div>
+        			<div class="col-m-3 col-s-6">
+        				<h3>455</h3>
+    					<p>followers</p>
+    				</div>
+        			<div class="col-m-3 col-s-6">
+        				<h3>455</h3>
+    					<p>followers</p>
+    				</div>
+        			<div class="col-m-3 col-s-6">
+        				<h3>455</h3>
+    					<p>followers</p>
+    				</div>
+        		</div>
+			</section>
+		</main>
+		<footer id="footer">
+			<div class="container row">
+				<div class="col-m-4 col-s-12"><h3>About Us</h3><p>Phasellus sapien diam, efficitur at augue et, laoreet tristique diam. Sed at augue eget nunc accumsan aliquet sit amet non turpis.</p></div>
+				<div class="col-m-4 col-s-12">
+					<div class="row"><h3>Get in touch</h3>
+						<div class="col-m-3 col-s-3">Address:</div>
+						<div class="col-m-9 col-s-9">Kolonia Straszewska 29</div>
+					</div>
+						<div class="row">
+						<div class="col-m-3 col-s-3">Phone: </div>
+						<div class="col-m-9 col-s-9">+48 726 456 968</div>
+					</div>
+						<div class="row">
+						<div class="col-m-3 col-s-3">Phone: </div>
+						<div class="col-m-9 col-s-9">+48 726 456 968</div>
+					</div>
+				</div>
+				<div class="col-m-4 col-s-12"><h3>Social media</h3>
+					<p>Phasellus consectetur venenatis interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+					<div class="social">
+						<button class="icon-btn twitter">
+							<i class="fa fa-twitter"></i>
+						</button>
+						<button class="icon-btn facebook">
+							<a href="#">
+							<i class="fa fa-facebook"></i></a>
+						</button>
+						<button class="icon-btn google-plus">
+							<i class="fa fa-google-plus"></i>
+						</button>
+						<button class="icon-btn instagram">
+							<i class="fa fa-instagram"></i>
+						</button>
+						<button class="icon-btn github">
+							<i class="fa fa-github"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="copy">
+				<h2>&copy;2016 Designed by Jakub Mroczkowski</h2>
+			</div>
+		</footer>
+	</body>
+</html>	
